@@ -1,0 +1,15 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+/*Selector{
+	Property:value;
+}*/
+
+  
+
+.search input { text-indent: 32px;}
+.search .fa-search { 
+  position: absolute;
+  top: 20px;
+  right: 115px;
+}
+
+ 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-light  ">
+  <h6 class="text-white">MOVIES</h6>
+   <form class="form-inline my-2 my-lg-0">
+   <div class="search" style="background-color:">
+  <span class="fa fa-search"></span></div>
+  <input class="text-white  form-control " max length="20" input value=" " id="searchText" type="search"  aria-label="Search" href="https://www.imdb.com/trailers/">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation ">
+  <span class="glyphicon glyphicon-search"></span>
+  <span class="navbar-toggler-icon "></span>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="text-white nav-link" href="drama.html">DRAMA<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="text-white nav-link" href="comedy.html">COMEDY<span class="sr-only">(current)</a>
+      </li>
+</nav>
+</button>
+
+
+<div  class="carousel slide carousel-multi-item" data-ride="carousel">
+<a class="text-white nav-link" href="drama.html">DRAMA &#8250<span class="sr-only">(current)</span></a>
+<button1 class="navbar-toggler">
+</div>
+
+
+
+<div  class="carousel slide carousel-multi-item" data-ride="carousel">
+  <a class="text-white nav-link" href="comedy.html">COMEDY &#8250<span class="sr-only">(current)</span></a>
+  <button1 class="navbar-toggler">
+</div>
+
+    
+
+    
+
+    
+
+<div class="container">
+<div id ="movie" class="well"></div>
+</div>
+
+
+ 
+ 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+     crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+    crossorigin="anonymous"></script>
+    <script >
+      getMovie();
+    </script>
+
+
+
+</body>
+</html>
